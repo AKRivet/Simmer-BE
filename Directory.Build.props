@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <!-- NETSDK1188: satellite assembly locale warnings from test platform packages on non-Windows -->
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);NETSDK1188</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+</Project>
